@@ -1,0 +1,10 @@
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\obj\Debug\BounnceBall150719.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\obj\Debug\BounnceBall150719.Form1.resources
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\obj\Debug\BounnceBall150719.Properties.Resources.resources
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\obj\Debug\BounnceBall150719.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\obj\Debug\BounnceBall150719.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\bin\Debug\BounnceBall150719.exe.config
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\bin\Debug\BounnceBall150719.exe
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\bin\Debug\BounnceBall150719.pdb
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\obj\Debug\BounnceBall150719.exe
+C:\Users\USER\source\repos\BounnceBall150719\BounnceBall150719\obj\Debug\BounnceBall150719.pdb
