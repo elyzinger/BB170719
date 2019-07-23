@@ -1,0 +1,52 @@
+﻿<Window x:Class="_210719HW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_210719HW"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="350">
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="Mywindowstyle">
+            <Setter Property="Foreground" Value="Green"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+
+        <Button Content="AppStyle q6" HorizontalAlignment="Left"
+                Margin="29,27,0,0" VerticalAlignment="Top" Width="90" Height="47">
+            <Button.Style>
+                <Style TargetType="Button" BasedOn="{StaticResource MyAppStyle}">
+
+                </Style>
+            </Button.Style>
+        </Button>
+        <Border  BorderThickness="3">
+            <TextBlock TextAlignment="Center" Text="answer7" TextWrapping="Wrap" FontSize="20" OpacityMask="Yellow" Margin="170,27,42,240" RenderTransformOrigin="0.523,0.551">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock" BasedOn="{StaticResource Mywindowstyle}">
+
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Border>
+        <TextBox TextAlignment="Center" HorizontalAlignment="Center" Margin="29,118,191,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="42" Width="122">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Foreground" Value="Pink"/>
+                    <Setter Property="BorderBrush" Value="Green"/>
+                    <Setter Property="Background" Value="White"/>
+                    <Style.Triggers>
+                        <Trigger Property="Text"  Value="">
+                            <Setter Property="Foreground" Value="Red"/>
+                            <Setter Property="Background" Value="Yellow"/>
+                            <Setter Property="BorderBrush" Value="White"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+    </Grid>
+</Window>
